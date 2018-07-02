@@ -5,7 +5,7 @@
 
     <application>
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="com.ke.fluttercontentshare.ShareContentFileProvider"
             android:authorities="${applicationId}.flutter_content_share"
             android:exported="false"
             android:grantUriPermissions="true">

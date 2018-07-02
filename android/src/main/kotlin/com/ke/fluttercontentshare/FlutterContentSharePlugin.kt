@@ -112,3 +112,5 @@ class FlutterContentSharePlugin(private val activity: Activity) : MethodCallHand
         return File.createTempFile(filename, ".png", externalFilesDirectory)
     }
 }
+
+//class ShareContentFileProvider : FileProvider()
