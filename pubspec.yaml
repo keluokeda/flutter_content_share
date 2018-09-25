@@ -1,8 +1,11 @@
 name: flutter_content_share
 description: 原生内容分享
-version: 0.0.1
+version: 0.0.2
 author:
 homepage:
+
+environment:
+    sdk: ">=1.19.0 <3.0.0"
 
 dependencies:
   flutter:
